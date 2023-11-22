@@ -1,9 +1,5 @@
-// read from console until 42
-// sum of digit
-// is prime
-// print Count of coffee-request –
-
 import java.util.Scanner;
+
 public class Program {
 	public static int sum_of_digit(int number) {
 		int sum = 0;
@@ -26,6 +22,7 @@ public class Program {
         }
 		return status;
 	}
+
     public static void main(String[] args) {
 		int count = 0;
 		int number;
@@ -36,7 +33,6 @@ public class Program {
 				count++;
 			}
 		}
-
 		System.out.println("Count of coffee-request - " + count);
 	}
 }
