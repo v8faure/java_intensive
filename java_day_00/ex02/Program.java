@@ -29,14 +29,14 @@ public class Program {
     public static void main(String[] args) {
 		int count = 0;
 		int number;
-
 		Scanner sequence = new Scanner(System.in);
-		if (number = sequence.nextInt() != 42) {
-			if (isPrime(sum_of_digit())) {
+
+		while ((number = sequence.nextInt()) != 42) {
+			if (isPrime(sum_of_digit(number))) {
 				count++;
 			}
 		}
 
-		System.out.println("Count of coffee-request – " + count);
+		System.out.println("Count of coffee-request - " + count);
 	}
 }
